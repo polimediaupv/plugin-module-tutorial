@@ -1,0 +1,45 @@
+{
+  "name": "plugin-module-tutorial",
+  "version": "1.0.0",
+  "description": "Plugin module for paella-core, created through plugin module tutorial. You can see it in the documentation page, at https://paellaplayer.upv.es",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode development --config webpack.debug.js",
+    "dev": "webpack serve --mode development --config webpack.debug.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/polimediaupv/plugin-module-tutorial.git"
+  },
+  "keywords": [
+    "paella-core",
+    "paella",
+    "player",
+    "plugin",
+    "module",
+    "tutorial"
+  ],
+  "author": "Fernando Serrano Carpena <ferserc1@gmail.com>",
+  "license": "SEE LICENSE IN license.txt",
+  "bugs": {
+    "url": "https://github.com/polimediaupv/plugin-module-tutorial/issues"
+  },
+  "homepage": "https://github.com/polimediaupv/plugin-module-tutorial#readme",
+  "dependencies": {
+    "paella-core": "^1.0.40"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.8",
+    "@babel/preset-env": "^7.16.11",
+    "babel-loader": "^8.2.4",
+    "copy-webpack-plugin": "^10.2.4",
+    "css-loader": "^6.7.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "svg-inline-loader": "^0.8.2",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  }
+}
