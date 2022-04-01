@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Plugin module for paella-core, created through plugin module tutorial. You can see it in the documentation page, at https://paellaplayer.upv.es",
   "main": "index.js",
+  "module": "dist/plugin-module-tutorial.js",
   "scripts": {
     "build": "webpack --mode development --config webpack.config.js",
     "dev": "webpack serve --mode development --config webpack.debug.js"
