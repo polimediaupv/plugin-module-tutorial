@@ -1,0 +1,22 @@
+{
+  "name": "my-plugin-module",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "exports": {
+    ".": "./dist/my-plugin-module.js"
+  },
+  "module": "./dist/my-plugin-module.js",
+  "main": "./dist/my-plugin-module.js",
+  "files": [
+    "dist/my-plugin-module.js"
+  ],
+  "scripts": {
+    "dev": "vite build --watch",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^6.3.5"
+  }
+}
