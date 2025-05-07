@@ -18,5 +18,8 @@
   },
   "devDependencies": {
     "vite": "^6.3.5"
+  },
+  "dependencies": {
+    "@asicupv/paella-core": "^2.1.9"
   }
 }

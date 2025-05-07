@@ -53,6 +53,11 @@
             "enabled": true,
             "side": "left",
             "showTotalTime": true
+        },
+
+        "es.upv.paella.exampleButtonPlugin": {
+            "enabled": true,
+            "side": "right"
         }
     }
 }

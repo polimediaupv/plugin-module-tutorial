@@ -1,7 +1,14 @@
-export function sayHello() {
-  console.log("Hello from my updated plugin!");
-}
 
-export function sayGoodbye() {
-  console.log("Goodbye from my plugin!");
-}
+import ExampleButtonPlugin from "./es.upv.paella.exampleButtonPlugin";
+
+export { ExampleButtonPlugin };
+
+export const examplePlugins = [
+  {
+    plugin: ExampleButtonPlugin,
+    config: {
+      enabled: true,
+      side: "right"
+    }
+  }
+]
